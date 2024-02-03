@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.className} text-white overflow-hidden scroll-smooth`}
+        className={`${roboto.className} text-white overflow-x-hidden scroll-smooth`}
       >
         <Header />
         {children}
