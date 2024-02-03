@@ -26,13 +26,13 @@ const Contact = () => {
           />
           <input
             type="text"
-            className="w-full rounded-[10px] py-[0.5rem] px-[1.2rem] font-ligh shadow-custom"
+            className="w-full rounded-[10px] py-[0.5rem] px-[1.2rem] font-light shadow-custom"
             placeholder="Contact Number"
           />
         </div>
         <input
           type="text"
-          className="w-full rounded-[10px] py-[0.5rem] px-[1.2rem] shadow-custom"
+          className="w-full rounded-[10px] font-light py-[0.5rem] px-[1.2rem] shadow-custom"
           placeholder="Any Comments?"
         />
         <p className="absolute cursor-pointer text-[#9DF8E8] border-[#9DF8E8] border-[1.5px] border-x-0 border-t-0 w-fit right-[3rem] bottom-[2.3rem] text-[0.9rem] font-light">

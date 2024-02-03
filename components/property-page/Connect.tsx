@@ -35,7 +35,7 @@ const Connect = () => {
             <p className="font-light">Preferred time to contact?</p>
             <input
               type="text"
-              className="w-full rounded-[10px] py-[0.5rem] px-[1.2rem] shadow-custom"
+              className="w-full rounded-[10px] py-[0.5rem] px-[1.2rem] shadow-custom font-light"
               placeholder="10:00 a.m.- 1:00 p.m."
             />
             <GoChevronDown
@@ -45,7 +45,7 @@ const Connect = () => {
           </div>
           <input
             type="text"
-            className="w-full mb-[1.5rem] rounded-[10px] py-[0.5rem] px-[1.2rem] shadow-custom"
+            className="w-full mb-[1.5rem] rounded-[10px] py-[0.5rem] px-[1.2rem] shadow-custom font-light"
             placeholder="Any Comments?"
           />
           <p className="font-light mb-[1.5rem]">Looking for?</p>
