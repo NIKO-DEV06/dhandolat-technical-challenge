@@ -10,8 +10,8 @@ const PropertiesPage = () => {
     setFilterIsOpen(!filterIsOpen);
   };
   return (
-    <section className="min-h-screen bg-[#111959] pt-[8rem] lg:pt-[10rem] px-[2rem] md:px-[6rem]">
-      <div className="flex justify-between items-center">
+    <section className="min-h-screen bg-[#111959] pt-[8rem] lg:pt-[10rem] px-[2rem] md:px-[6rem] ">
+      <div className="flex justify-between items-center 2xl:max-w-[1650px] 2xl:m-auto">
         <div className="flex justify-center items-center text-[#FFC107] gap-[0.5rem]">
           <AiFillCaretLeft size={30} />
           <p className="text-[1.5rem]">PROPERTIES</p>

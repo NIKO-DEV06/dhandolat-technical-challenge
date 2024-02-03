@@ -13,7 +13,7 @@ const Hero = () => {
         backgroundImage: 'url("/hero-bg.jpg")',
       }}
     >
-      <div className="flex flex-col lg:flex-row gap-[3rem] lg:gap-[3rem] xl:gap-[8rem] w-full">
+      <div className="flex flex-col lg:flex-row gap-[3rem] lg:gap-[3rem] xl:gap-[8rem] w-full 2xl:max-w-[1650px] 2xl:m-auto">
         <div className="flex flex-col gap-[3rem] lg:gap-[4rem] xl:w-[65rem]">
           <div className="bg-[#969696]/25 flex flex-col items-center rounded-[29px] gap-[0.5rem] py-[4rem] px-[2.5rem] lg:px-[6rem] backdrop-filter backdrop-blur-[8px] shadow-custom">
             <h2 className="text-[3rem] leading-none font-medium">DISCOVER</h2>

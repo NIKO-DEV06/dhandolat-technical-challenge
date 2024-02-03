@@ -6,7 +6,7 @@ import { GoChevronRight } from "react-icons/go";
 
 const Media = () => {
   return (
-    <section className="pt-[4rem] pl-[2rem] md:pl-[6rem] pb-[4rem]">
+    <section className="pt-[4rem] pl-[2rem] md:pl-[6rem] pb-[4rem] 2xl:max-w-[1650px] 2xl:m-auto">
       <div className="text-black flex items-center justify-between pr-[2rem] md:pr-[6rem]">
         <h1 className="font-medium text-[2rem]">MEDIA</h1>
         <GoChevronRight size={40} className="cursor-pointer" />

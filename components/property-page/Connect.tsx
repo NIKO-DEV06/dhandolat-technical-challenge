@@ -11,7 +11,7 @@ const Connect = () => {
         backgroundImage: 'url("/connect-bg.jpg")',
       }}
     >
-      <div className="flex flex-col lg:flex-row items-center lg:justify-between">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-between 2xl:max-w-[1650px] 2xl:m-auto">
         <form className="lg:w-[35%]">
           <h3 className="font-light text-[#FFC107]">PLEASE FILL THIS FORM!!</h3>
           <input

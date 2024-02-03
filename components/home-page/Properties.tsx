@@ -9,19 +9,21 @@ const Properties = () => {
         backgroundImage: 'url("/properties-homepage-bg.jpg")',
       }}
     >
-      <div className="flex justify-center items-center text-[#FFC107] gap-[0.5rem]">
-        <AiFillCaretLeft size={30} />
-        <p className="text-[2rem]">PROPERTIES</p>
+      <div className="2xl:max-w-[1650px] 2xl:m-auto">
+        <div className="flex justify-center items-center text-[#FFC107] gap-[0.5rem] ">
+          <AiFillCaretLeft size={30} />
+          <p className="text-[2rem]">PROPERTIES</p>
+        </div>
+        <div className="flex justify-between gap-[3rem] mt-[3rem] w-auto overflow-x-scroll">
+          {Array.from({ length: 3 }, (_, index) => (
+            <PropertyCard key={index} />
+          ))}
+        </div>
+        <GoChevronRight
+          size={40}
+          className="fill-white absolute right-0 md:right-[2rem] top-1/2 -translate-y-[2rem]"
+        />
       </div>
-      <div className="flex justify-between gap-[3rem] mt-[3rem] w-auto overflow-x-scroll">
-        {Array.from({ length: 3 }, (_, index) => (
-          <PropertyCard key={index} />
-        ))}
-      </div>
-      <GoChevronRight
-        size={40}
-        className="fill-white absolute right-0 md:right-[2rem] top-1/2 -translate-y-[2rem]"
-      />
     </section>
   );
 };

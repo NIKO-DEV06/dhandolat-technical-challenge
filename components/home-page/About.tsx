@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="text-black px-[2rem] md:px-[6rem] pt-[4rem] lg:pt-[7rem] lg:pb-[8rem] pb-[5rem]">
+    <section className="text-black px-[2rem] md:px-[6rem] pt-[4rem] lg:pt-[7rem] lg:pb-[8rem] pb-[5rem] 2xl:max-w-[1650px] 2xl:m-auto">
       <h1 className="text-center text-[3rem] lg:text-[3.5rem]">
         <span className="text-[#652CB2] font-semibold">ABOUT</span> US
       </h1>

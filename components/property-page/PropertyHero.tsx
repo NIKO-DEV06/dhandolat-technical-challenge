@@ -9,7 +9,7 @@ const PropertyHero = () => {
         backgroundImage: 'url("/property-bg.jpg")',
       }}
     >
-      <div className="flex flex-col lg:flex-row gap-[2rem] lg:gap-[5rem]">
+      <div className="flex flex-col lg:flex-row gap-[2rem] lg:gap-[5rem] 2xl:max-w-[1650px] 2xl:m-auto">
         <Image
           src={propertyHero}
           width={500}
@@ -53,7 +53,6 @@ const PropertyHero = () => {
             </div>
           </div>
         </div>
-        <div></div>
       </div>
     </section>
   );
