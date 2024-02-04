@@ -4,11 +4,11 @@ import PropertyHero from "./PropertyHero";
 
 const PropertyPage = () => {
   return (
-    <>
+    <section className="overflow-x-hidden">
       <PropertyHero />
       <Media />
       <Connect />
-    </>
+    </section>
   );
 };
 
